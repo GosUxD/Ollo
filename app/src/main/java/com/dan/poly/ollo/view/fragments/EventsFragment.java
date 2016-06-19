@@ -10,10 +10,11 @@ import android.view.ViewGroup;
 import com.dan.poly.ollo.R;
 
 /**
- * Created by Daniel on 6/14/2016.
+ * Created by daniel on 19.6.16.
  */
 public class EventsFragment extends Fragment {
 
+    @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_events, container, false);
