@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/menu_home"
-          android:title="Home"/>
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
 
+    <item
+        android:id="@+id/menu_select_city"
+        android:title="Select city"
+        android:icon="@drawable/ic_select_city"/>
+
+    <item
+        android:id="@+id/menu_contact"
+        android:title="Contact us"
+        android:icon="@drawable/ic_contact"
+        />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Log out"
+        android:icon="@drawable/exit"/>
 </menu>
